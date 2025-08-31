@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shagufta</title>
+
+     <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%2300d1ff'/><text x='50' y='62' font-size='58' text-anchor='middle' fill='white' font-family='Arial'>S</text></svg>">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+     <!-- Header / Navbar -->
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#home">
+        <div class="logo">SM</div>
+        <strong>Shagufta</strong>
+      </a>
+      <nav class="navlinks" id="navlinks">
+         <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button class="btn" id="themeToggle" aria-label="Toggle theme">🌗 Theme</button>
+      </nav>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+    <!-- Hero -->
+  <section class="hero container" id="home">
+    <div class="hero-grid">
+      <div>
+        
+        <h1 class="reveal" style="transition-delay:.06s">Hi, I'm Shagufta —
+          <span
+            style="background:linear-gradient(135deg,var(--accent),var(--accent-2));-webkit-background-clip:text;background-clip:text;color:transparent">Web
+            Designer</span>
+          & Frontend Developer
+        </h1>
+        <p class="lead reveal" style="transition-delay:.12s">I craft colorful, animated and responsive web experiences
+          that feel premium and perform fast.</p>
+        <div class="cta reveal" style="transition-delay:.18s">
+          <a class="btn primary" href="#projects">🚀 See Projects</a>
+          <a class="btn" href="#contact">📩 Contact Me</a>
+        </div>
+      </div>
+      <div class="avatar-card reveal" style="transition-delay:.2s">
+        <img class="avatar"
+          src="./img/meenu.png"
+          alt="Shagufta portrait placeholder" />
+        <div class="rings" aria-hidden="true"></div>
+      </div>
+    </div>
+  </section>
+
+   <!-- About -->
+  <section class="container" id="about">
+    <h2 class="section-title reveal">About Me</h2>
+    <p class="section-sub reveal" style="max-width:800px">I'm a software student and frontend developer who loves
+      building interactive UI with clean code. I focus on usability, motion, and performance to turn ideas into
+      delightful products.</p>
+    <div class="about">
+      <div class="card reveal">
+        <h3>What I do</h3>
+        <ul>
+          <li>Modern, responsive websites</li>
+          <li>Animated UIs with micro‑interactions</li>
+          <li>Landing pages that convert</li>
+          <li>Design systems & component libraries</li>
+        </ul>
+      </div>
+      <div class="card reveal" style="transition-delay:.06s">
+        <h3>Highlights</h3>
+        <ul>
+          <li>Strong in HTML, CSS, JavaScript, React</li>
+          <li>Pixel‑perfect attention to detail</li>
+          <li>Love colorful, premium visual styles</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+   <!-- Skills -->
+  <section class="container" id="skills">
+    <h2 class="section-title reveal">Skills</h2>
+    <p class="section-sub reveal">Hover to preview • Auto‑animated on scroll</p>
+    <div class="skills">
+      <div class="skill reveal"><strong>HTML</strong>
+        <div class="bar" data-level="85"></div>
+      </div>
+      <div class="skill reveal" style="transition-delay:.04s"><strong>CSS</strong>
+        <div class="bar" data-level="75"></div>
+      </div>
+      <div class="skill reveal" style="transition-delay:.08s"><strong>JavaScript</strong>
+        <div class="bar" data-level="65"></div>
+      </div>
+      <div class="skill reveal" style="transition-delay:.12s"><strong>React.js</strong>
+        <div class="bar" data-level="60"></div>
+      </div>
+      <div class="skill reveal" style="transition-delay:.16s"><strong>Boostrap</strong>
+        <div class="bar" data-level="60"></div>
+      </div>
+     
+    </div>
+  </section>
+
+   <!-- Projects -->
+  <section class="container" id="projects">
+    <h2 class="section-title reveal">Featured Projects</h2>
+    <p class="section-sub reveal">A mix of UI animations, landing pages and tools</p>
+    <div class="grid">
+      <article class="card reveal">
+        <div class="thumb">
+          <img src="./img/food.jpg" alt="website portrait placeholder">
+        </div>
+        <div class="content">
+          <span class="tag">UI/Animation</span>
+          <span class="tag">Responsive</span>
+          <h3>Food Website</h3>
+          <p>Allows users to view restaurant menus and order food for home delivery.</p>
+          <a class="btn" href="#">Demo</a>
+        </div>
+      </article>
+      <article class="card reveal" style="transition-delay:.04s">
+        <div class="thumb">
+          <img src="./img/ai-tool.jpg"
+         alt="AI-tool placeholder">
+        </div>
+        <div class="content">
+          <span class="tag">React</span>
+          <span class="tag">Boostrap</span>
+          <h3>AI-tool Project</h3>
+          <p>AI-tool involves designing, developing and deploying software .</p>
+          <a class="btn" href="#">Demo</a>
+        </div>
+      </article>
+      <article class="card reveal" style="transition-delay:.08s">
+        <div class="thumb">
+          <img src="./img/protfolio.jpg" alt="Animated Portfolio Preview">
+        </div>
+        <div class="content">
+          <span class="tag">Portfolio</span>
+          <span class="tag">Responsive</span>
+          <h3> Portfolio Website</h3>
+          <p>High‑performance animated portfolio with reveal on scroll, theme toggle, and grid projects.</p>
+          <a class="btn" href="#">Demo</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+   <!-- Contact -->
+  <section class="container" id="contact">
+    <h2 class="section-title reveal">Get in touch</h2>
+    <p class="section-sub reveal">Have a project in mind? Let's build something beautiful.</p>
+    <form class="reveal" id="contactForm">
+      <input type="text" name="name" placeholder="Your name" required>
+      <input type="email" name="email" placeholder="Email address" required>
+      <textarea name="message" placeholder="Tell me about your project…" required></textarea>
+      <button class="btn primary" type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- footer -->
+   <footer>
+    <div class="container">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap">
+        <p>© <span id="year"></span> Shagufta. All rights reserved.</p>
+        <div style="display:flex;gap:10px;align-items:center">
+          <a class="btn" href="https://github.com/Shagufta-sultani">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/shagufta-sultani/">LinkedIn</a>
+          <a class="btn" href="mailto:contact@example.com">Gmail</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+    <script>
+    // Navbar mobile toggle
+    const menuBtn = document.getElementById('menuBtn');
+    const navlinks = document.getElementById('navlinks');
+    menuBtn.addEventListener('click', () => navlinks.classList.toggle('open'));
+
+    // Theme toggle (persist)
+    const themeToggle = document.getElementById('themeToggle');
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'light') document.documentElement.classList.add('light');
+    themeToggle.addEventListener('click', () => {
+      document.documentElement.classList.toggle('light');
+      localStorage.setItem('theme', document.documentElement.classList.contains('light') ? 'light' : 'dark');
+    });
+
+    // Year set
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Reveal on scroll using IntersectionObserver
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('revealed');
+          // Animate skill bars when section visible
+          if (e.target.classList.contains('skill')) {
+            const bar = e.target.querySelector('.bar');
+            const level = bar.getAttribute('data-level');
+            bar.style.transition = 'transform .9s cubic-bezier(.2,.8,.2,1)';
+            bar.style.transform = `scaleX(${level / 100})`;
+          }
+          io.unobserve(e.target);
+        }
+      })
+    }, { threshold: .18 });
+
+    document.querySelectorAll('.reveal, .skill').forEach(el => io.observe(el));
+
+    // Contact form (demo only)
+    document.getElementById('contactForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const data = new FormData(e.target);
+      const name = data.get('name');
+      alert(`Thanks, ${name}! Your message has been sent (demo).`);
+      e.target.reset();
+    });
+
+    // Hover interaction for skill bars
+    document.querySelectorAll('.skill').forEach(card => {
+      card.addEventListener('mousemove', (e) => {
+        card.style.transform = 'translateY(-3px)';
+      });
+      card.addEventListener('mouseleave', () => {
+        card.style.transform = '';
+      });
+    });
+  </script>
+
+
+  </body>
+</html>
